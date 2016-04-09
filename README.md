@@ -35,3 +35,27 @@ Apollo and the state of various projects, activity, moving quick, but lots of fi
 
 Relating it to oddworks video and CQRS using a range tree to implement a suggestion feature for policy wonks scanning through commercials on msnbc or cspan by monitoring fast forwarding and rewinding to hone in on interesting content
 
+ok now back to the syntas, iwth authorizaqtion, authentication, parameterization
+
+and testing
+types of testing, schema, unit, query, edge cases, validation, end to end, 
+
+a map drawing tool with express and react dnd
+a schema building interface that could map to languages and back ends
+absynthe to ember
+or aurelia using fragment types to templates
+
+joint.js
+span/selector mad libs with natural language
+refactoring tools with handle and fragment types
+use DDD tool dictionary to easitly or auto populate names as a n option for phone based sketching
+
+Hapi based schema editor using joi
+Squee like mee byron mascot in a spacesuit in an Apollo craft, worried, debree outside
+SqueeMe is the tool
+SqueeMish is the schema file format
+.squish is the file extension
+
+LINQ to SQL Server
+ECTO to Postgres
+Execution plans and querying strategy good practices
