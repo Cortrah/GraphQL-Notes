@@ -31,6 +31,7 @@ Examples of mapping to
   Ruby
   Elixir
   
-Apollo and the state of various projects, activity, moving quick, but lots of fits and starts as well. Blog summary? Predictions?
+Apollo and the state of various projects, activity, moving quick, but lots of fits and starts as well. Blog summary? Any Predictions?
 
+Relating it to oddworks video and CQRS using a range tree to implement a suggestion feature for policy wonks scanning through commercials on msnbc or cspan by monitoring fast forwarding and rewinding to hone in on interesting content
 
