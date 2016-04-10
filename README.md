@@ -33,7 +33,9 @@ The syntax is a query language using the best part of js, json
 
 That is it looks like json, until it doesn't, pretty elegant
   
-A visual/aural dictionary of terms on mouseover of a good example query. Go through each term in the spec
+A visual/aural dictionary of terms on mouseover of a good example query. 
+
+Go through each term in the spec
   
 ### Creating schemas will be the challenge as it is with breeze
 
