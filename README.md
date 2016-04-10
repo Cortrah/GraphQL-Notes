@@ -14,7 +14,7 @@ These are some notes about graphql in preparation for doing a presentation.
 * security
 * complexity
 * keeping the hot side hot and the cold side cold
-* strong typing without strong tooling
+* strong typing without strong tooling (as2, soap)
 
 ### Related Predecessors
 * Odata with breeze and jaydata  
