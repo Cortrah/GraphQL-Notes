@@ -11,7 +11,7 @@ These are some notes about graphql in preparation for doing a presentation.
 * Living Documentation
 
 ### Potential Problems
-* security
+* security (probably not real)
 * complexity
 * keeping the hot side hot and the cold side cold
 * strong typing without strong tooling (as2, soap)
