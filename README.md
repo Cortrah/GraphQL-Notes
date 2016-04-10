@@ -22,7 +22,6 @@ These are some notes about graphql in preparation for doing a presentation.
 * Rest, JsonApi specifically (article on discrourse)
 * HATEOS, RPC, SOAP - remember the past to predict the future - SOAP stories?
   
-  
 ### Features
 * getting data with different structures 
 * sorting 
