@@ -54,17 +54,24 @@ Some ideas for an example
 1. An oddworks video catelog using CQRS using a range tree to implement a suggestion feature for policy wonks scanning through commercials on msnbc or cspan by monitoring fast forwarding and rewinding to hone in on interesting content.
 
 2. a map drawing tool with express and react dnd
+
 3. a text based schema building interface that could map to languages and back ends using span/selector mad libs with natural language
+
 4. absynthe to ember or aurelia using fragment types mapped to templates
+
 5. joint.js schema building interface instead of span based text markup for phones. envisioning refactoring tools with handle and fragment types
+
 6. use DDD tool dictionary to easitly or auto populate names as an option for phone based sketching
 
-Hapi based schema editor using joi
-Squee like mee byron mascot in a spacesuit in an Apollo craft, worried, debree outside
-SqueeMe is the tool
-SqueeMish is the schema file format
-.squish is the file extension
+7. Hapi based schema editor using joi
 
-LINQ to SQL Server
-ECTO to Postgres
-Execution plans and querying strategy good practices
+If I do the tool, some fun implementation ideas
+* Squee like mee byron mascot in a spacesuit in an Apollo craft, worried, debree outside
+* SqueeMe is the tool
+* SqueeMish is the schema file format
+* .squish is the file extension
+
+If I do an absynthe example, cover
+* LINQ to SQL Server
+* ECTO to Postgres
+* Execution plans and querying strategy good practices
