@@ -4,7 +4,9 @@ These are some notes about graphql in preparation for doing a presentation.
 
 ### The value from a client side perspective
 
-* The process of getting new end points or data becoming dependent on others schedules
+* The process of getting new end points and data being dependent on others schedules
+* Flexibility
+* Efficiency
 * Maintenance
 * Living Documentation
 
