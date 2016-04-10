@@ -12,6 +12,7 @@ These are some notes about graphql in preparation for doing a presentation.
 
 ### Potential Problems
 * security
+* complexity
 * keeping the hot side hot and the cold side cold
 * strong typing without strong tooling
 
