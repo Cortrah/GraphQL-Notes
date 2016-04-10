@@ -1,6 +1,6 @@
 # GraphQL Notes
 
-These are some notes on graphql in preparation for doing a presentation.
+These are some notes about graphql in preparation for doing a presentation.
 
 ### The value from a client side perspective
 
