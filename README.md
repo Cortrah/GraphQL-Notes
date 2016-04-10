@@ -14,7 +14,7 @@ These are some notes about graphql in preparation for doing a presentation.
 * security (probably not real)
 * complexity
 * keeping the hot side hot and the cold side cold
-* strong typing without strong tooling (as2, soap)
+* strong typing without strong tooling is worse than no typing at all (as2, soap)
 
 ### Related Predecessors
 * Odata with breeze and jaydata  
