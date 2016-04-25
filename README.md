@@ -21,7 +21,7 @@
     http://breeze.github.io/doc-js/query-examples.html     
     
 * Breeze schemas entity framework and hand entering metadata 
-    http://breeze.github.io/doc-node-mongodb/
+    http://breeze.github.io/doc-node-mongodb 
     http://breeze.github.io/doc-js/metadata.html
 
 * Falcor
