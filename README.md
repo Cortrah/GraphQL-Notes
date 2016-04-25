@@ -1,88 +1,85 @@
-# GraphQL Notes
+# GraphQL Scouting Report
 
-These are some notes about graphql in preparation for doing a presentation.
+
+## Part 1 - An Overview
 
 ### The value from a client side perspective
 
 * The process of getting new end points and data being dependent on others schedules
-* Flexibility
-* Efficiency
-* Maintenance
+* Cache consistency for data with overlapping structures 
+* Maintenance as an api evolves
+* Query parameters, paging, and validation
 * Living Documentation
 
-### Potential Problems
-* security (probably not real)
-* complexity
-* keeping the hot side hot and the cold side cold
-* strong typing without strong tooling is worse than no typing at all (as2, soap)
-
 ### Related Predecessors
-* Odata with breeze and jaydata  
+* REST such as (Json Api)
+    http://jsonapi.org/examples/#pagination
+* Odata with breeze or jaydata  
+    http://www.odata.org/documentation/odata-version-2-0/uri-conventions/
+    http://services.odata.org/ODataAPIExplorer/ODataAPIExplorer.html
+    http://breeze.github.io/doc-js/query-examples.html     
 * Breeze schemas entity framework and hand entering metadata 
-* Rest, JsonApi specifically (article on discrourse)
-* HATEOS, RPC, SOAP - remember the past to predict the future - SOAP stories?
+    http://breeze.github.io/doc-node-mongodb/
+    http://breeze.github.io/doc-js/metadata.html
+* Falcor
+	http://netflix.github.io/falcor/documentation/datasources.html
+
+
+### Potential Problems
+* security? (will come up but probably not a real issue)
+* complexity (queries still need to be hand written and can be complex)
+* strong typing without strong tooling is worse than no typing at all 
+* creating schemas will be a chore for both strong and weak type systems
+
   
-### Features
-* getting data with different structures 
-* sorting 
-* paging 
-* validation 
-* caching
+  
+## Part 2 -  The Syntax
   
 The syntax is a query language using the best part of js, json
 
 That is it looks like json, until it doesn't, pretty elegant
+    
+### Example Queries with Swapi	and GraphQLHub
+   http://graphql-swapi.parseapp.com/
+   https://www.graphqlhub.com/
+
+   https://github.com/graphql/swapi-graphql/tree/master/doc/example_queries
+  
+### Terminology
   
 A visual/aural dictionary of terms on mouseover of a good example query. 
 
 Go through each term in the spec
-  
-### Creating schemas will be the challenge as it is with breeze
 
-It is a strongly tyhped system that is based on js making it strange to many of it's target users
+Schema shorthand and actual syntax
 
-Examples of mapping to
-* mongo via mongoose, joi or json schema
-* postgres with sequelize or absynthe
-* Ruby
-* Elixir
-  
-Apollo and the state of various projects, activity, moving quick, but lots of fits and starts as well. Blog summary? Any Predictions?
 
-ok now back to the syntax, with authorizaqtion, authentication, parameterization
-
-### Testing
-
+## Part 3 - Testing
 types of testing, schema, unit, query, edge cases, validation, end to end, 
+* http://graphql.org/blog/mocking-with-graphql/
+* https://github.com/rmosolgo/graphql-ruby/blob/master/guides/testing.md
+* https://github.com/graphql/graphql-js/tree/master/src/language/__tests__
 
-### Some ideas for an example
 
-1. An oddworks video catelog using CQRS using a range tree to implement a suggestion feature for policy wonks scanning through commercials on msnbc or cspan by monitoring fast forwarding and rewinding to hone in on interesting content.
+## Part 4 - Projects
+* Apollo http://docs.apollostack.com/
+* Graitti https://github.com/RisingStack/graffiti
+* Absynthe http://absinthe-graphql.org/guides/writing-schemas/
+* GraphQL-Ruby https://github.com/rmosolgo/graphql-ruby
 
-2. a map drawing tool with express and react dnd
+## Part 5 - Articles
+   the spec http://facebook.github.io/graphql/
+   relay https://facebook.github.io/relay/docs/graphql-relay-specification.html#content
 
-3. a text based schema building interface that could map to languages and back ends using span/selector mad libs with natural language
+## Part 6 - Tools
+* https://github.com/graphql/graphiql
+* AST Explorer https://github.com/fkling/astexplorer
 
-4. absynthe to ember or aurelia using fragment types mapped to templates
+## Part 7 - An Example
 
-5. joint.js schema building interface instead of span based text markup for phones. envisioning refactoring tools with handle and fragment types
-
-6. use DDD tool dictionary to easitly or auto populate names as an option for phone based sketching
-
-7. Hapi based schema editor using joi
-
-If I do the tool, some fun implementation ideas
-* Squee like mee byron mascot in a spacesuit in an Apollo craft, worried, debree outside
-* SqueeMe is the tool
-* SqueeMish is the schema file format
-* .squish is the file extension
-
-If I do an absynthe example, cover
-* LINQ to SQL Server
-* ECTO to Postgres
-* Execution plans and querying strategy good practices
-
-### A Schema to Experiment with for a Board Game Map
+### A Map for a Board Game
+  
+### Schema 
 
     Game:
         name: string
