@@ -71,8 +71,8 @@ types of testing, schema, unit, query, edge cases, validation, end to end,
 * GraphQL-Ruby https://github.com/rmosolgo/graphql-ruby
 
 ## Part 5 - Articles
-   the spec http://facebook.github.io/graphql/
-   relay https://facebook.github.io/relay/docs/graphql-relay-specification.html#content
+* the spec http://facebook.github.io/graphql/
+* relay https://facebook.github.io/relay/docs/graphql-relay-specification.html#content
 
 ## Part 6 - Tools
 * https://github.com/graphql/graphiql
