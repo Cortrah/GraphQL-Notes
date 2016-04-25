@@ -16,13 +16,13 @@
     http://jsonapi.org/examples/#pagination
     
 * Odata with breeze or jaydata  
-    http://www.odata.org/documentation/odata-version-2-0/uri-conventions    
-    http://services.odata.org/ODataAPIExplorer/ODataAPIExplorer.html
-    http://breeze.github.io/doc-js/query-examples.html     
+    * http://www.odata.org/documentation/odata-version-2-0/uri-conventions    
+    * http://services.odata.org/ODataAPIExplorer/ODataAPIExplorer.html
+    * http://breeze.github.io/doc-js/query-examples.html     
     
-* Breeze schemas entity framework and hand entering metadata 
-    http://breeze.github.io/doc-node-mongodb 
-    http://breeze.github.io/doc-js/metadata.html
+* Breeze schemas entity framework and hand entering metadata
+    * http://breeze.github.io/doc-node-mongodb 
+    * http://breeze.github.io/doc-js/metadata.html
 
 * Falcor
 	http://netflix.github.io/falcor/documentation/datasources.html
