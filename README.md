@@ -97,7 +97,7 @@ types of testing, schema, unit, query, edge cases, validation, end to end,
         name: string
         code: string
         color: integer
-        race: race_id
+        species: species_id
         faction: faction_id
         first_turn: integer
         last_turn: integer
@@ -154,7 +154,7 @@ types of testing, schema, unit, query, edge cases, validation, end to end,
         sink: region_id
         is_directional: boolean
 
-    Race
+    Species
         id: integer
         name: string
         code: string
