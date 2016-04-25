@@ -14,22 +14,25 @@
 ### Related Predecessors
 * REST such as (Json Api)
     http://jsonapi.org/examples/#pagination
+    
 * Odata with breeze or jaydata  
-    http://www.odata.org/documentation/odata-version-2-0/uri-conventions/
+    http://www.odata.org/documentation/odata-version-2-0/uri-conventions    
     http://services.odata.org/ODataAPIExplorer/ODataAPIExplorer.html
     http://breeze.github.io/doc-js/query-examples.html     
+    
 * Breeze schemas entity framework and hand entering metadata 
     http://breeze.github.io/doc-node-mongodb/
     http://breeze.github.io/doc-js/metadata.html
+
 * Falcor
 	http://netflix.github.io/falcor/documentation/datasources.html
 
 
 ### Potential Problems
-* security? (will come up but probably not a real issue)
-* complexity (queries still need to be hand written and can be complex)
-* strong typing without strong tooling is worse than no typing at all 
-* creating schemas will be a chore for both strong and weak type systems
+* Security? (will come up but probably not a real issue)
+* Complexity (queries still need to be hand written and can be complex)
+* Strong typing without strong tooling is worse than no typing at all 
+* Creating schemas will be a chore for both strong and weak type systems
 
   
   
