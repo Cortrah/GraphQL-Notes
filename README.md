@@ -43,10 +43,10 @@ The syntax is a query language using the best part of js, json
 That is it looks like json, until it doesn't, pretty elegant
     
 ### Example Queries with Swapi	and GraphQLHub
-   http://graphql-swapi.parseapp.com/
-   https://www.graphqlhub.com/
+   * http://graphql-swapi.parseapp.com/
+   * https://www.graphqlhub.com/
 
-   https://github.com/graphql/swapi-graphql/tree/master/doc/example_queries
+   * https://github.com/graphql/swapi-graphql/tree/master/doc/example_queries
   
 ### Terminology
   
